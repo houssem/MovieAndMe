@@ -17,10 +17,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "movie.and.me"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "movie.and.me"
     }
   }
 }
